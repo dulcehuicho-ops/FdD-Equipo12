@@ -28,7 +28,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/60885051.jpg" width="90"/> | **Ariana Cortez** | Líder del equipo | Innovación social, sostenibilidad, |
+| <img src="/Recursos/Imágenes/60885051.jpg" width="90"/> | **Ariana Cortéz** | Líder del equipo | Innovación social, sostenibilidad, |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Luis Huaccha** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
 | <img src="Recursos/Imágenes/70589968.jpg" width="90"/> | **Dulce Huicho** | Diseñadora | Diseño de prototipos, creatividad visual |
 | <img src="/Recursos/Imágenes/claudiana.jpeg" width="90"/> | **Claudiana Pineda** | Encargada de documentación | Comunicación científica, redacción técnica |
