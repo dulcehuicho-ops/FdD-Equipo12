@@ -28,7 +28,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Ariana Cortez** | Líder del equipo | Innovación social, sostenibilidad, |
+| ![image alt].(https://github.com/claudianapineda-tech/FdD-Equipo12./blob/f52b4db962ccfa5b9d7a99d999943d7a964afa30/60885051.jpg)  | **Ariana Cortez** | Líder del equipo | Innovación social, sostenibilidad, |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Luis Huaccha** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Dulce Huicho** | Diseñadora | Diseño de prototipos, creatividad visual |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Claudiana Pineda** | Encargada de documentación | Comunicación científica, redacción técnica |
