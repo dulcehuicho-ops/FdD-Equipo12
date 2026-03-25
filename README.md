@@ -6,14 +6,14 @@
 
 ## 🌍 Descripción del Equipo  
 Somos el **Equipo 12** del curso **Fundamentos de Diseño 2026-1**, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
-Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.  
+Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental, contribuyendo al desarrollo sostenible de la comunidad.  
 
 Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 - ODS 3: Salud y Bienestar  
 - ODS 7: Agua Limpia y Saneamiento  
 - ODS 14: Vida submarina
 
-  En conjunto, permite mejorar la salud, garantizar el acceso al agua limpia y conservar los ecosistemas, contribuyendo al desarrollo sostenible.
+  En conjunto, estos objetivos permite mejorar la salud de la población, garantizar el acceso al agua limpia y conservar los ecosistemas, contribuyendo al desarrollo sostenible que integre el bienestar humano y la protección del medio ambiente.
 ---
 
 ## 📸 Fotografía del Equipo  
