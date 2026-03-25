@@ -32,7 +32,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Luis Huaccha** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
 | <img src="Recursos/Imágenes/70589968.jpg" width="90"/> | **Dulce Huicho** | Diseñadora | Diseño de prototipos, creatividad visual |
 | <img src="/Recursos/Imágenes/claudiana.jpeg" width="90"/> | **Claudiana Pineda** | Encargada de documentación | Comunicación científica, redacción técnica |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Giacomo Jimenez** | Programador - Modelador | Programación, análisis de datos, simulación |
+| <img src="/Recursos/Imágenes/renato.jpeg" width="90"/> | **Giacomo Jimenez** | Programador - Modelador | Programación, análisis de datos, simulación |
 
 ---
 
