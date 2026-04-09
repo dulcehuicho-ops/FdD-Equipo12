@@ -21,31 +21,31 @@ Falta de control y desperdicio de agua
 El llenado de tanques no es automatizado.
 Se generan reboses y uso ineficiente del recurso hídrico.
 
-## 🔍 Problema integrador
+## Problema integrador
 Aunque los tanques de agua son esenciales en los hogares, no existe un sistema que permita detectar a tiempo la contaminación invisible del agua ni prevenir el mal uso del recurso, lo que genera riesgos sanitarios y desperdicio.
 
-## 💡 Presentación de la solución
+##  Presentación de la solución
 Se propone un sistema inteligente para tanques de agua domésticos que integra monitoreo de calidad del agua, control de llenado y sistema de alertas automáticas.
 
-## El sistema está compuesto por:
+## El sistema precisará de :
 
-🔹 Módulo 1: Monitoreo de calidad del agua
-Sensores que detectan parámetros no visibles a simple vista como turbidez y posibles contaminantes.
-Identificación de cambios en la calidad del agua en tiempo real.
-Sistema que alerta cuando el agua no es apta para consumo.
+🔹Monitoreo de calidad del agua
+- Sensores que detectan parámetros no visibles a simple vista como turbidez y posibles contaminantes.
+- Identificación de cambios en la calidad del agua en tiempo real.
+- Sistema que alerta cuando el agua no es apta para consumo.
 
-🔹 Módulo 2: Control automático de llenado
-Sensor de nivel que detecta cuando el tanque está lleno.
-Cierre automático de la válvula para evitar rebose y desperdicio.
+🔹Control automático de llenado
+- Sensor de nivel que detecta cuando el tanque está lleno.
+- Cierre automático de la válvula para evitar rebose y desperdicio.
 
-🔹 Módulo 3: Sistema de alertas y mantenimiento
-Notificación al usuario cuando la calidad del agua es inadecuada.
-El sistema sugiere realizar mantenimiento o limpieza del tanque.
-Funciona como un sistema de alerta temprana antes de que ocurran daños en la salud.
+🔹Sistema de alertas y mantenimiento
+- Notificación al usuario cuando la calidad del agua es inadecuada.
+- El sistema sugiere realizar mantenimiento o limpieza del tanque.
+- Funciona como un sistema de alerta temprana antes de que ocurran daños en la salud.
 
 Desde el enfoque de ingeniería, el proyecto integra sensores de calidad del agua, sensores de nivel, actuadores y sistemas de control automatizado, permitiendo una gestión inteligente del agua en el
 
-## 🎯 Objetivos de Desarrollo Sostenible (ODS)
+## 🎯 Objetivos de Desarrollo Sostenible
 
 🚰 ODS 6: Agua limpia y saneamiento  
 El proyecto se alinea con este objetivo porque busca garantizar que el agua almacenada en tanques domésticos sea segura para el consumo humano. A través del monitoreo continuo de la calidad del agua, el sistema permite detectar contaminantes que no son visibles a simple vista, evitando que las personas utilicen agua en mal estado sin saberlo. Además, el sistema emite alertas cuando la calidad del agua no es adecuada, lo que permite tomar acciones inmediatas como la limpieza o mantenimiento del tanque. De esta manera, se mejora la gestión del recurso hídrico en el hogar, se reduce el riesgo de consumo de agua contaminada y se promueve un uso más responsable y seguro del agua potable.
