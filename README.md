@@ -68,49 +68,13 @@ Si las condiciones lo requieren, el Arduino activa una bomba dosificadora, que a
 🔹Sistema de alertas:
 El sistema genera alertas automáticas cuando detecta:
 - pH
-  🟢 Normal: 6.5 – 8.0
-  🟡 Alerta: 8.0 – 8.5 (disminuye la eficiencia del cloro)
-  🔴 Crítico: < 6.5 o > 8.5 (riesgo para consumo y desinfección ineficiente)
+   🟢 Normal: 6.5 – 8.0
+   🟡 Alerta: 8.0 – 8.5 (disminuye la eficiencia del cloro)
+   🔴 Crítico: < 6.5 o > 8.5 (riesgo para consumo y desinfección ineficiente)
 - Turbidez
-  🟢 Normal: ≤ 5 NTU
-  🔴 Crítico: > 5 NTU (alta presencia de partículas o contaminación)
-  Alta turbidez reduce la efectividad del cloro porque protege microorganismos.
-
-## El sistema precisará de :
-🔹Monitoreo de nivel del tanque:
-
-    El sistema inicia con la medición del nivel de agua, mediante un sensor que determina la cantidad de agua almacenada en el tanque. Esta información permite conocer el volumen disponible y evitar errores en la dosificación, como operar sin agua o sobredosificar.
-
-🔹Monitoreo de calidad del agua:
-   El sistema analiza la calidad del agua mediante sensores de:
-    - pH (condición química del agua)
-       El sistema verifica el nivel de acidez o alcalinidad del agua.
-       Para que la desinfección con cloro sea eficaz, se considera que el pH debe ser menor a 8, ya que en ese rango el cloro mantiene una mayor eficiencia desinfectante.
-    - Turbidez (presencia de partículas o suciedad)
-       Permite identificar contaminación visible o carga de sólidos en el agua. Y este deberá ser menor de 5 unidades nefelométricas de turbiedad (UNT). 
-       Estos parámetros permiten determinar si el agua es apta, está en estado de alerta o no es apta para consumo, evaluando cambios en tiempo real.
-
-🔹Procesamiento y control (Arduino):
-    Toda la información de los sensores es enviada a un Arduino, que procesa los datos y toma decisiones automáticas según las condiciones del sistema:
-     - Evalúa la calidad del agua
-     - Verifica el nivel del tanque
-     - Determina si se requiere dosificación de cloro o generación de alerta
-     - Considera el rango de pH adecuado para una desinfección eficiente
-  
-🔹Dosificación automática de cloro:
-    Si las condiciones lo requieren, el Arduino activa una bomba dosificadora, que aplica cloro en cantidades controladas. La dosificación se ajusta según el volumen de agua disponible en el tanque, asegurando una desinfección eficiente sin sobredosificación.
-
-🔹Sistema de alertas:
-   El sistema genera alertas automáticas cuando detecta:
-    - pH
-       🟢 Normal: 6.5 – 8.0
-       🟡 Alerta: 8.0 – 8.5 (disminuye la eficiencia del cloro)
-       🔴 Crítico: < 6.5 o > 8.5 (riesgo para consumo y desinfección ineficiente)
-    - Turbidez
-       🟢 Normal: ≤ 5 NTU
-       🔴 Crítico: > 5 NTU (alta presencia de partículas o contaminación)
-       Alta turbidez reduce la efectividad del cloro porque protege microorganismos.
-
+   🟢 Normal: ≤ 5 NTU
+   🔴 Crítico: > 5 NTU (alta presencia de partículas o contaminación)
+   Alta turbidez reduce la efectividad del cloro porque protege microorganismos.
 
 ## 🎯 Objetivos de Desarrollo Sostenible
 
