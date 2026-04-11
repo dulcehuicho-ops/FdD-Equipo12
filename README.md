@@ -13,12 +13,9 @@ En muchas comunidades rurales del Perú, el acceso a agua en condiciones adecuad
 
 Ante esta situación, se propone el desarrollo de un sistema automatizado que permita medir parámetros básicos como pH, turbidez y nivel de agua, con el fin de optimizar la dosificación de cloro en tanques comunitarios. De esta manera, se busca mejorar la gestión del agua mediante una solución accesible, adaptable y enfocada en las necesidades reales de estas comunidades.
 
-<<<<<<< HEAD
-## ⚠️ Problemática  
 
-En comunidades rurales donde el acceso al agua potable es gestionado por las Juntas Administradoras de Servicios de Saneamiento (JASS), se identifican dos problemáticas principales:
-=======
 ## ⚠️ Problemática
+
 1. Dosificación inadecuada de cloro
 
   En sistemas gestionados por las Juntas Administradoras de Servicios de Saneamiento, la cloración se realiza de forma manual y sin criterios técnicos estandarizados. Esto genera variaciones en la cantidad aplicada, ocasionando periodos con niveles insuficientes o excesivos de cloro en el agua.
@@ -30,21 +27,6 @@ En comunidades rurales donde el acceso al agua potable es gestionado por las Jun
 3. Riesgo sanitario asociado a la calidad del agua
 
    La deficiente gestión de la cloración y el control del agua incrementa el riesgo de Enfermedades Diarreicas Agudas en la población, especialmente en comunidades rurales donde el acceso a agua segura es limitado.
-
-
->>>>>>> a6a92bd (actualizacion de README)
-
-### 1. Deficiente desinfección del agua  
-- La dosificación de cloro se realiza de manera manual y empírica.  
-- No se garantiza una concentración adecuada de cloro residual (mínimo 0.5 mg/L).  
-- Se han evidenciado niveles bajos o nulos de cloro en sistemas de abastecimiento.  
-- Existe mayor riesgo de proliferación de microorganismos y enfermedades en la población.  
-
-### 2. Falta de monitoreo de la calidad del agua  
-- No se controlan parámetros clave como el pH y la turbidez.  
-- Se pueden presentar valores fuera de los rangos adecuados para consumo humano.  
-- La detección de problemas en la calidad del agua no es oportuna.  
-- Se limita la capacidad de respuesta ante fallas en el sistema de abastecimiento.
   
 ## Problema integrador  
 En muchas comunidades rurales, el acceso al agua potable es gestionado por las Juntas Administradoras de Servicios de Saneamiento (JASS), las cuales se encargan del almacenamiento y distribución del recurso hídrico mediante tanques cisterna. Sin embargo, en estos sistemas no siempre se cuenta con mecanismos adecuados para la dosificación controlada de cloro ni con herramientas de monitoreo continuo de la calidad del agua.  
@@ -57,7 +39,7 @@ Se propone el **diseño e implementación de un sistema de dosificación de clor
 Este sistema integrará sensores para el monitoreo de parámetros como el pH, la turbidez y nivel del agua junto con un mecanismo automatizado de dosificación de cloro, permitiendo mantener niveles adecuados de desinfección en sistemas de abastecimiento comunitario.  
 
 Asimismo, contará con un sistema de alertas que facilite a los operadores de la JASS el control oportuno de la calidad del agua, contribuyendo a mejorar la salud pública, prevenir enfermedades y fortalecer la gestión comunitaria del recurso hídrico en zonas rurales.
-<<<<<<< HEAD
+
 
 ## El sistema sigue los pasos:
 
@@ -93,7 +75,7 @@ El sistema genera alertas automáticas cuando detecta:
   🟢 Normal: ≤ 5 NTU
   🔴 Crítico: > 5 NTU (alta presencia de partículas o contaminación)
   Alta turbidez reduce la efectividad del cloro porque protege microorganismos.
-=======
+
 ## El sistema precisará de :
 🔹Monitoreo de nivel del tanque:
 
@@ -124,11 +106,11 @@ El sistema genera alertas automáticas cuando detecta:
        🟢 Normal: 6.5 – 8.0
        🟡 Alerta: 8.0 – 8.5 (disminuye la eficiencia del cloro)
        🔴 Crítico: < 6.5 o > 8.5 (riesgo para consumo y desinfección ineficiente)
-     - Turbidez
+    - Turbidez
        🟢 Normal: ≤ 5 NTU
        🔴 Crítico: > 5 NTU (alta presencia de partículas o contaminación)
        Alta turbidez reduce la efectividad del cloro porque protege microorganismos.
->>>>>>> a6a92bd (actualizacion de README)
+
 
 ## 🎯 Objetivos de Desarrollo Sostenible
 
