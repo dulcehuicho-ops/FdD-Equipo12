@@ -40,7 +40,7 @@ Asimismo, contará con un sistema de alertas que facilite a los operadores de la
 
 ## El sistema sigue los pasos:
 
-🔹Monitoreo de nivel del tanque: 
+🔹Monitoreo de nivel del tanque:
 El sistema inicia con la medición del nivel de agua, mediante un sensor que determina la cantidad de agua almacenada en el tanque. Esta información permite conocer el volumen disponible y evitar errores en la dosificación, como operar sin agua o sobredosificar.
 
 🔹Monitoreo de calidad del agua:
