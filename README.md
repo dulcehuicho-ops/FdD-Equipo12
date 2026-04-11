@@ -25,6 +25,7 @@ En comunidades rurales donde el acceso al agua potable es gestionado por las Jun
 - Se pueden presentar valores fuera de los rangos adecuados para consumo humano.  
 - La detección de problemas en la calidad del agua no es oportuna.  
 - Se limita la capacidad de respuesta ante fallas en el sistema de abastecimiento.
+  
 ## Problema integrador  
 En muchas comunidades rurales, el acceso al agua potable es gestionado por las Juntas Administradoras de Servicios de Saneamiento (JASS), las cuales se encargan del almacenamiento y distribución del recurso hídrico mediante tanques cisterna. Sin embargo, en estos sistemas no siempre se cuenta con mecanismos adecuados para la dosificación controlada de cloro ni con herramientas de monitoreo continuo de la calidad del agua.  
 
@@ -36,23 +37,41 @@ Se propone el **diseño e implementación de un sistema de dosificación de clor
 Este sistema integrará sensores para el monitoreo de parámetros como el pH, la turbidez y nivel del agua junto con un mecanismo automatizado de dosificación de cloro, permitiendo mantener niveles adecuados de desinfección en sistemas de abastecimiento comunitario.  
 
 Asimismo, contará con un sistema de alertas que facilite a los operadores de la JASS el control oportuno de la calidad del agua, contribuyendo a mejorar la salud pública, prevenir enfermedades y fortalecer la gestión comunitaria del recurso hídrico en zonas rurales.
-## El sistema precisará de :
+
+## El sistema sigue los pasos:
+
+🔹Monitoreo de nivel del tanque
+El sistema inicia con la medición del nivel de agua, mediante un sensor que determina la cantidad de agua almacenada en el tanque. Esta información permite conocer el volumen disponible y evitar errores en la dosificación, como operar sin agua o sobredosificar.
 
 🔹Monitoreo de calidad del agua
-- Sensores que detectan parámetros no visibles a simple vista como turbidez y posibles contaminantes.
-- Identificación de cambios en la calidad del agua en tiempo real.
-- Sistema que alerta cuando el agua no es apta para consumo.
+El sistema analiza la calidad del agua mediante sensores de:
+- pH (condición química del agua)
+  El sistema verifica el nivel de acidez o alcalinidad del agua.
+Para que la desinfección con cloro sea eficaz, se considera que el pH debe ser menor a 8, ya que en ese rango el cloro mantiene una mayor eficiencia desinfectante.
+- Turbidez (presencia de partículas o suciedad)
+  Permite identificar contaminación visible o carga de sólidos en el agua. Y este deberá ser menor de 5 unidades nefelométricas de turbiedad (UNT). 
+Estos parámetros permiten determinar si el agua es apta, está en estado de alerta o no es apta para consumo, evaluando cambios en tiempo real.
 
-🔹Control automático de llenado
-- Sensor de nivel que detecta cuando el tanque está lleno.
-- Cierre automático de la válvula para evitar rebose y desperdicio.
+🔹Procesamiento y control (Arduino)
+Toda la información de los sensores es enviada a un Arduino, que procesa los datos y toma decisiones automáticas según las condiciones del sistema:
+- Evalúa la calidad del agua
+- Verifica el nivel del tanque
+- Determina si se requiere dosificación de cloro o generación de alerta
+- Considera el rango de pH adecuado para una desinfección eficiente
+  
+🔹Dosificación automática de cloro
+Si las condiciones lo requieren, el Arduino activa una bomba dosificadora, que aplica cloro en cantidades controladas. La dosificación se ajusta según el volumen de agua disponible en el tanque, asegurando una desinfección eficiente sin sobredosificación.
 
-🔹Sistema de alertas y mantenimiento
-- Notificación al usuario cuando la calidad del agua es inadecuada.
-- El sistema sugiere realizar mantenimiento o limpieza del tanque.
-- Funciona como un sistema de alerta temprana antes de que ocurran daños en la salud.
-
-Desde el enfoque de ingeniería, el proyecto integra sensores de calidad del agua, sensores de nivel, actuadores y sistemas de control automatizado, permitiendo una gestión inteligente del agua en el
+🔹Sistema de alertas
+El sistema genera alertas automáticas cuando detecta:
+- pH
+  🟢 Normal: 6.5 – 8.0
+  🟡 Alerta: 8.0 – 8.5 (disminuye la eficiencia del cloro)
+  🔴 Crítico: < 6.5 o > 8.5 (riesgo para consumo y desinfección ineficiente)
+- Turbidez
+  🟢 Normal: ≤ 5 NTU 
+  🔴 Crítico: > 5 NTU (alta presencia de partículas o contaminación)
+Alta turbidez reduce la efectividad del cloro porque protege microorganismos.
 
 ## 🎯 Objetivos de Desarrollo Sostenible
 
