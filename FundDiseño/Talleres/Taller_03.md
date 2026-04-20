@@ -16,14 +16,14 @@ Asimismo, se relaciona con el ODS 3 (salud y bienestar), orientado a garantizar 
 
 
 REFERENCIAS: 
-1. World Health Organization. Drinking-water [Internet]. Geneva: WHO; 2023 [cited 2026 Apr 19]. Available from: https://www.who.int/news-room/fact-sheets/detail/drinking-water
+1. World Health Organization. Drinking-water [Internet]. Ginebra: WHO; 2023 [citado 19 abr 2026]. Disponible en: https://www.who.int/news-room/fact-sheets/detail/drinking-water
 
-2. Presidencia del Consejo de Ministros. Rol de las municipalidades en relación con las Juntas Administradoras de Servicios de Saneamiento (JASS) [Internet]. Lima: Gobierno del Perú; s.f. [citado 2026 abr 20]. Disponible en: https://www.gob.pe/12295-rol-de-las-
+2. Presidencia del Consejo de Ministros. Rol de las municipalidades en relación con las Juntas Administradoras de Servicios de Saneamiento (JASS) [Internet]. Lima: Gobierno del Perú; [citado 19 abr 2026]. Disponible en: https://www.gob.pe/12295-rol-de-las-municipalidades-en-relacion-con-las-juntas-administradoras-de-servicios-de-saneamiento-jass
 
 3. Sandoval Mendoza LL. Evaluación de la calidad del agua para consumo humano del sistema de abastecimiento de la Junta Administradora de Servicios de Saneamiento (JASS) Nuevo Bolognesi, Callería – Ucayali, 2017 [tesis de maestría]. Pucallpa: Universidad Nacional de Ucayali; 2018. Disponible en: https://hdl.handle.net/20.500.14621/6364
 
-4. Dirección General de Salud Ambiental (DIGESA), Ministerio de Salud del Perú. Parámetros organolépticos del agua para consumo humano [Internet]. Lima: MINSA; s.f. [citado 2026 abr 20]. Disponible en: https://www.digesa.minsa.gob.pe/DEPA/informes_tecnicos/GRUPO%20DE%20USO%201.pdf
+4. Dirección General de Salud Ambiental (DIGESA), Ministerio de Salud del Perú. Parámetros organolépticos del agua para consumo humano [Internet]. Lima: MINSA; [citado 19 abr 2026]. Disponible en: https://www.digesa.minsa.gob.pe/DEPA/informes_tecnicos/GRUPO%20DE%20USO%201.pdf
 
-5. Naciones Unidas. Objetivo 6: Garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos [Internet]. Nueva York: ONU; c2024 [citado 20 abr 2026]. Disponible en: https://www.un.org/sustainabledevelopment/es/water-and-sanitation/
+5. Naciones Unidas. Objetivo 6: Garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos [Internet]. Nueva York: ONU; c2024 [citado 19 abr 2026]. Disponible en: https://www.un.org/sustainabledevelopment/es/water-and-sanitation/
 
-6. Naciones Unidas. Objetivo 3: Garantizar una vida sana y promover el bienestar para todos en todas las edades [Internet]. Nueva York: ONU; c2024 [citado 20 abr 2026]. Disponible en: https://www.un.org/sustainabledevelopment/es/health/ 
+6. Naciones Unidas. Objetivo 3: Garantizar una vida sana y promover el bienestar para todos en todas las edades [Internet]. Nueva York: ONU; c2024 [citado 19 abr 2026]. Disponible en: https://www.un.org/sustainabledevelopment/es/health/ 
